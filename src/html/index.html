@@ -19,54 +19,55 @@
         <p class="animated fadeIn">A University project <span>by</span> Tajdid Rahman</p>
 
         <div class="buttons">
-          <a href="#" class="btn btn--purple">Download Icons</a>
-          <a href="#" class="btn btn--green">Find out more</a>
+          <a href="https://www.dropbox.com/s/81ds81q6hc2x42p/hobby-icons.zip?dl=0" class="btn btn--purple">Download Icons</a>
+          <a href="#info" class="btn btn--green">Find out more</a>
         </div>
       </div>
     </header>
     <!-- /.site-header -->
 
     <main class="content">
+      <div class="content-header-bg"> </div>
       <div class="container">
-        <header class="content-header">
+        <header class="content-header" id="info">
           <h1>12 DIFFERENT ICONS BASED AROUND COMMON HOBBIES</h1>
 
-          <p>Designed by Tajdid Rahman and available in four different formats including <b>AI</b>, <b>SVG</b>, <b>EPS</b> and <b>PNG</b>.</p>
+          <p>Designed by Tajdid Rahman and available for free in three different formats; <b>SVG</b>, <b>PNG</b> and <b>AI</b>.</p>
         </header>
       </div>
 
-        <section class="featured">
-          <div id="Glide" class="glide">
+      <section class="featured">
+        <div id="Glide" class="glide">
 
-            <div class="glide__arrows">
-              <button class="glide__arrow prev" data-glide-dir="<">prev</button>
-              <button class="glide__arrow next" data-glide-dir=">">next</button>
-            </div>
-
-            <div class="glide__wrapper">
-              <ul class="glide__track">
-                <li class="glide__slide">
-                  <div class="slide-content">
-                    <img src="images/slide2.png" alt="">
-                  </div>
-                </li>
-                <li class="glide__slide">
-                  <div class="slide-content">
-                    <img src="images/slide1.png" alt="">
-                  </div>
-                </li>
-                <li class="glide__slide">
-                  <div class="slide-content">
-                    <img src="images/slide3.png" alt="">
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-            <div class="glide__bullets"></div>
-
+          <div class="glide__arrows">
+            <button class="glide__arrow prev" data-glide-dir="<">prev</button>
+            <button class="glide__arrow next" data-glide-dir=">">next</button>
           </div>
-        </section>
+
+          <div class="glide__wrapper">
+            <ul class="glide__track">
+              <li class="glide__slide">
+                <div class="slide-content">
+                  <img src="images/slide2.png" alt="">
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="slide-content">
+                  <img src="images/slide1.png" alt="">
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="slide-content">
+                  <img src="images/slide3.png" alt="">
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="glide__bullets"></div>
+
+        </div>
+      </section>
 
       <div class="container">
         <section class="icon-set">
@@ -78,12 +79,8 @@
             <img src="images/icons/icon-camera.svg" alt="">
           </div>
 
-          <div class="icon dullRed">
-            <img src="images/icons/icon-book.svg" alt="">
-          </div>
-          
-          <div class="icon yellowGreen">
-            <img src="images/icons/icon-game.svg" alt="">
+          <div class="icon purpleToolBox">
+            <img src="images/icons/icon-coder.svg" alt="">
           </div>
 
           <div class="icon orange">
@@ -93,33 +90,49 @@
           <div class="icon blue">
             <img src="images/icons/icon-gym.svg" alt="">
           </div>
+
+          <div class="icon dullRed">
+            <img src="images/icons/icon-book.svg" alt="">
+          </div>
+
           <div class="icon coral">
             <img src="images/icons/icon-video.svg" alt="">
           </div>
-
-          <div class="icon purpleToolBox">
-            <img src="images/icons/icon-coder.svg" alt="">
+          
+          <div class="icon yellowGreen">
+            <img src="images/icons/icon-game.svg" alt="">
           </div>
 
-          <div class="icon red">
-            <img src="images/icons/icon-.svg" alt="">
+          <div class="icon goldenYellow">
+            <img src="images/icons/icon-cooking.svg" alt="">
           </div>
           
           <div class="icon blue">
-            <img src="images/icons/icon-.svg" alt="">
+            <img src="images/icons/icon-travel.svg" alt="">
           </div>
 
-          <div class="icon red">
-            <img src="images/icons/icon-.svg" alt="">
+          <div class="icon purpleToolBox">
+            <img src="images/icons/icon-sports.svg" alt="">
           </div>
 
-          <div class="icon blue">
-            <img src="images/icons/icon-.svg" alt="">
+          <div class="icon turquoise">
+            <img src="images/icons/icon-clothes.svg" alt="">
           </div>
-
         </section>
       </div>
     </main>
+
+    <section class="download-icon">
+      <div class="container">
+        <a href="https://www.dropbox.com/s/81ds81q6hc2x42p/hobby-icons.zip?dl=0" class="btn btn--purple mt">Download Icons</a>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Copyright &copy; 2016 Tajdid Rahman</p>
+      </div>
+    </footer>
     
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/glide.min.js"></script>
@@ -128,6 +141,21 @@
         type: "slideshow"
       });
     </script>
-    <script src="bundle.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('a[href^="#"]').on('click',function (e) {
+            e.preventDefault();
+
+            var target = this.hash;
+            var $target = $(target);
+
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, 900, 'swing', function () {
+                window.location.hash = target;
+            });
+        });
+      });
+    </script>
   </body>
 </html>
