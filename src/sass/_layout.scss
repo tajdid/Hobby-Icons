@@ -48,6 +48,17 @@
     background-position: center;
   }
 
+  .buttons {
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    left: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    bottom: 20vh;
+  }
+
   @media screen  and (max-width: 760px) {
     padding: 0 2em;
     height: 100vh;
@@ -84,4 +95,13 @@
     letter-spacing: 0px;
     line-height: 42px;
   }
+}
+
+.icon {
+  min-width: 300px;
+  min-height: 300px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

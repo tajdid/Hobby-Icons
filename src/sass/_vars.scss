@@ -14,3 +14,44 @@ $site-gutter: 7.5%;
 // $serif: ;
 
 // COLORS
+$havelock-blue: #4A90E2;
+$medium-slate-blue: #8368EA;
+$turquoise: #50E3C2;
+$dull-red: #C4383E;
+$yellow-green: #B8E986;
+$sea-buckthorn: #F5A623;
+$coral: #F47B4E;
+$toolbox: #6B6DC7;
+
+.coral {
+  background: $coral;
+}
+
+.blue {
+  background: $havelock-blue;
+}
+
+.dullRed {
+  background: $dull-red;
+}
+
+.orange {
+  background: $sea-buckthorn;
+}
+
+.purpleBlue {
+  background: $medium-slate-blue;
+}
+
+.purpleToolBox {
+  background: $toolbox;
+}
+
+.turquoise {
+  background: $turquoise;
+}
+
+.yellowGreen {
+  background: $yellow-green;
+}
+

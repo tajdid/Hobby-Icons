@@ -17,6 +17,11 @@
       <div class="f-container">
         <div class="logo animated bounceInDown">@include("images/logo.svg")</div>
         <p class="animated fadeIn">A University project <span>by</span> Tajdid Rahman</p>
+
+        <div class="buttons">
+          <a href="#" class="btn btn--purple">Download Icons</a>
+          <a href="#" class="btn btn--green">Find out more</a>
+        </div>
       </div>
     </header>
     <!-- /.site-header -->
@@ -29,8 +34,100 @@
           <p>Designed by Tajdid Rahman and available in four different formats including <b>AI</b>, <b>SVG</b>, <b>EPS</b> and <b>PNG</b>.</p>
         </header>
       </div>
+
+        <section class="featured">
+          <div id="Glide" class="glide">
+
+            <div class="glide__arrows">
+              <button class="glide__arrow prev" data-glide-dir="<">prev</button>
+              <button class="glide__arrow next" data-glide-dir=">">next</button>
+            </div>
+
+            <div class="glide__wrapper">
+              <ul class="glide__track">
+                <li class="glide__slide">
+                  <div class="slide-content">
+                    <img src="images/slide2.png" alt="">
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="slide-content">
+                    <img src="images/slide1.png" alt="">
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="slide-content">
+                    <img src="images/slide3.png" alt="">
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="glide__bullets"></div>
+
+          </div>
+        </section>
+
+      <div class="container">
+        <section class="icon-set">
+          <div class="icon purpleBlue">
+            <img src="images/icons/icon-creative.svg" alt="">
+          </div>
+
+          <div class="icon turquoise">
+            <img src="images/icons/icon-camera.svg" alt="">
+          </div>
+
+          <div class="icon dullRed">
+            <img src="images/icons/icon-book.svg" alt="">
+          </div>
+          
+          <div class="icon yellowGreen">
+            <img src="images/icons/icon-game.svg" alt="">
+          </div>
+
+          <div class="icon orange">
+            <img src="images/icons/icon-music.svg" alt="">
+          </div>
+
+          <div class="icon blue">
+            <img src="images/icons/icon-gym.svg" alt="">
+          </div>
+          <div class="icon coral">
+            <img src="images/icons/icon-video.svg" alt="">
+          </div>
+
+          <div class="icon purpleToolBox">
+            <img src="images/icons/icon-coder.svg" alt="">
+          </div>
+
+          <div class="icon red">
+            <img src="images/icons/icon-.svg" alt="">
+          </div>
+          
+          <div class="icon blue">
+            <img src="images/icons/icon-.svg" alt="">
+          </div>
+
+          <div class="icon red">
+            <img src="images/icons/icon-.svg" alt="">
+          </div>
+
+          <div class="icon blue">
+            <img src="images/icons/icon-.svg" alt="">
+          </div>
+
+        </section>
+      </div>
     </main>
     
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/glide.min.js"></script>
+    <script>
+      $("#Glide").glide({
+        type: "slideshow"
+      });
+    </script>
     <script src="bundle.js"></script>
   </body>
 </html>

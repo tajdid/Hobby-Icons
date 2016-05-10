@@ -1,0 +1,22 @@
+.btn {
+  border-radius: 4px;
+  font-family: Montserrat-Bold;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  padding: 30px 60px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.btn--purple {
+  background: #8368EA;
+}
+
+.btn--green {
+  background: #AED554;
+}

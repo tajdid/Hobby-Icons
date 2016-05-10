@@ -4,16 +4,24 @@
 		"selected_items":
 		[
 			[
-				"fon",
-				"font-style"
+				"backgr",
+				"background"
 			],
 			[
 				"back",
-				"background-size"
+				"background-color"
+			],
+			[
+				"max",
+				"max-height"
 			],
 			[
 				"bac",
-				"background"
+				"background-size"
+			],
+			[
+				"fon",
+				"font-style"
 			],
 			[
 				"in",
@@ -96,10 +104,6 @@
 				"font-size"
 			],
 			[
-				"backgr",
-				"background-color"
-			],
-			[
 				"bu",
 				"button-colour"
 			],
@@ -110,10 +114,6 @@
 			[
 				"backg",
 				"background-color"
-			],
-			[
-				"max",
-				"max-width"
 			],
 			[
 				"min-",
@@ -171,7 +171,7 @@
 			"file": "src/html/index.html",
 			"settings":
 			{
-				"buffer_size": 1017,
+				"buffer_size": 3766,
 				"line_ending": "Unix"
 			}
 		},
@@ -179,7 +179,23 @@
 			"file": "src/sass/_layout.scss",
 			"settings":
 			{
-				"buffer_size": 1088,
+				"buffer_size": 1771,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 507,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/sass/components/_buttons.scss",
+			"settings":
+			{
+				"buffer_size": 307,
 				"line_ending": "Unix"
 			}
 		}
@@ -231,12 +247,20 @@
 	[
 		"/Users/tajdid/Documents/Creative/Websites/hobby-icons",
 		"/Users/tajdid/Documents/Creative/Websites/hobby-icons/dist",
+		"/Users/tajdid/Documents/Creative/Websites/hobby-icons/dist/js",
 		"/Users/tajdid/Documents/Creative/Websites/hobby-icons/src",
 		"/Users/tajdid/Documents/Creative/Websites/hobby-icons/src/html",
-		"/Users/tajdid/Documents/Creative/Websites/hobby-icons/src/sass"
+		"/Users/tajdid/Documents/Creative/Websites/hobby-icons/src/sass",
+		"/Users/tajdid/Documents/Creative/Websites/hobby-icons/src/sass/components",
+		"/Users/tajdid/Documents/Creative/Websites/hobby-icons/src/sass/tools"
 	],
 	"file_history":
 	[
+		"/Users/tajdid/Documents/Creative/Websites/hobby-icons/src/sass/components/_buttons.scss",
+		"/Users/tajdid/Documents/Creative/Websites/hobby-icons/src/sass/components/_all.scss",
+		"/Users/tajdid/Documents/Creative/Websites/hobby-icons/src/sass/tools/_glide.theme.scss",
+		"/Users/tajdid/Documents/Creative/Websites/hobby-icons/src/sass/style.scss",
+		"/Users/tajdid/Documents/Creative/Websites/hobby-icons/src/sass/tools/_all.scss",
 		"/Users/tajdid/Documents/Creative/Websites/hobby-icons/.gitignore",
 		"/Users/tajdid/Documents/Creative/Websites/hobby-icons/src/img/logo.svg",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/components/_buttons.scss",
@@ -359,12 +383,7 @@
 		"/Users/tajdid/Documents/Creative/Websites/portfolio/index.html",
 		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/modules/_header.scss",
 		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/js/scripts.js",
-		"/Users/tajdid/Documents/GitHub/minifolio/css/style.css",
-		"/Users/tajdid/Documents/GitHub/ixd302/index.html",
-		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/modules/_buttons.scss",
-		"/Users/tajdid/Documents/Creative/Websites/Sinatra/taskanatra/Gemfile",
-		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/pages/_profile.scss",
-		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/modules/_footer.scss"
+		"/Users/tajdid/Documents/GitHub/minifolio/css/style.css"
 	],
 	"find":
 	{
@@ -440,15 +459,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1017,
+						"buffer_size": 3766,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								303,
-								303
+								893,
+								893
 							]
 						],
 						"settings":
@@ -461,7 +480,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -476,15 +495,45 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1088,
+						"buffer_size": 1771,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								954,
-								954
+								993,
+								993
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 244.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/sass/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 507,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								158,
+								158
 							]
 						],
 						"settings":
@@ -492,10 +541,38 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 102.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/sass/components/_buttons.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 307,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								304
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -577,7 +654,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
